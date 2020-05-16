@@ -1,0 +1,56 @@
+@import "widths-and-spacing";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+//Nav
+.nav {
+    padding: 3rem 6rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    
+    .nav-logo {
+        width:250px;
+    }
+}
+
+.hero-container {
+    width: 100vw;
+    height: 700px;
+    background-image: url('../images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    @supports (-webkit-text-stroke: 1px white) {
+        .hero-title-1{
+            padding-top:250px ;
+            -webkit-text-stroke: 2px white;
+            -webkit-text-fill-color: transparent;
+            font-size: 72px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 800;
+        }
+    }
+    .hero-title-1{
+        padding-top:250px ;
+        @supports (-webkit-text-stroke: 1px white) {
+            -webkit-text-stroke: 2px white;
+            -webkit-text-fill-color: transparent;
+        }
+        font-size: 72px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 800;
+    }
+
+    .hero-title-2{
+        color: white;
+        font-weight: 600;
+        font-size: 64px;
+        letter-spacing: 5px;
+        line-height: 55px;
+    }
+   
+}
+

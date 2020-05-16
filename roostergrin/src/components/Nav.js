@@ -2,9 +2,9 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <img src={process.env.PUBLIC_URL + '/img/logo-white.svg'}></img>
-        </nav>
+        <div className="container nav">
+            <img className="nav-logo" src={require('./../assets/images/logo-white.svg')}></img>
+        </div>
     )
 }
 

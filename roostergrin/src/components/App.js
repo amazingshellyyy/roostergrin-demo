@@ -1,12 +1,13 @@
 import React from 'react';
 import Nav from './Nav';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Hero from './Hero';
+
 
 const App = () => {
     return (
         <div>
-        
         <Nav/>
+        <Hero/>
         </div>
     )
 }
