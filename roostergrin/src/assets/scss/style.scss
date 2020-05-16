@@ -1,56 +1,105 @@
 @import "widths-and-spacing";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 //Nav
 .nav {
-    padding: 3rem 6rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    
-    .nav-logo {
-        width:250px;
-    }
+  padding: 3rem 6rem;
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+
+  .nav-logo {
+    width: 250px;
+  }
 }
 
 .hero-container {
-    width: 100vw;
-    height: 700px;
-    background-image: url('../images/hero.jpg');
+  width: 100vw;
+  height: 700px;
+  background-image: url("../images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  .hero-title-1 {
+    padding-top: 250px;
+    @supports (-webkit-text-stroke: 1px white) {
+      -webkit-text-stroke: 2px white;
+      -webkit-text-fill-color: transparent;
+    }
+    font-size: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    animation: fadein 3s;
+  }
+
+  .hero-title-2 {
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: 5px;
+    -webkit-font-smoothing: antialiased;
+    line-height: 55px;
+    animation: fadein 3s;
+  }
+
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .hero-button {
+    color: #fff;
+    border-color: #ac5fd0;
+    background-color: #ac5fd0;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 35px;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #ac5fd0;
+      color: #fff;
+      border-color: #ac5fd0;
+    }
+  }
+}
+
+.section {
+  .sec-info {
+    padding: 15vh 3vw 10vh 15vw;
+    .header {
+      font-weight: 700;
+      color: #613476;
+      font-size: 40px;
+      letter-spacing: 1px;
+      padding-bottom: 1.8rem;
+      text-transform: uppercase;
+    }
+    .content {
+      font-size: 1.2rem;
+    }
+    a {
+      color: #613476;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+  .sec-image {
+    background-image: url("../images/img-1.jpg");
+    height: 526px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    @supports (-webkit-text-stroke: 1px white) {
-        .hero-title-1{
-            padding-top:250px ;
-            -webkit-text-stroke: 2px white;
-            -webkit-text-fill-color: transparent;
-            font-size: 72px;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-weight: 800;
-        }
-    }
-    .hero-title-1{
-        padding-top:250px ;
-        @supports (-webkit-text-stroke: 1px white) {
-            -webkit-text-stroke: 2px white;
-            -webkit-text-fill-color: transparent;
-        }
-        font-size: 72px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 800;
-    }
-
-    .hero-title-2{
-        color: white;
-        font-weight: 600;
-        font-size: 64px;
-        letter-spacing: 5px;
-        line-height: 55px;
-    }
-   
+  }
 }
+
+
 
