@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1 = () => {
   return (
-    <div className="section">
+    <div className="container-fluid section">
       <div className="row">
         <div className="col-sm">
         <div className="sec-info">
@@ -18,7 +18,7 @@ const Section1 = () => {
           <a href="#"> > Lorem ipsum</a>
           </div>
         </div>
-        <div className="col-sm">
+        <div className="col-sm p-0">
           <div className="sec-image"></div>
         </div>
       </div>
