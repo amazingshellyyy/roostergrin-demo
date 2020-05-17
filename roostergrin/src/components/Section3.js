@@ -3,16 +3,16 @@ import React from "react";
 const Section3 = () => {
   return (
     <div className="container-fluid section">
-      <div className="row">
+      <div className="row section3-container">
         <div className="col-sm">
-          <div className="sec3-info">
+          <div className="sec-info">
             <div className="header">Lorem ipsum dolor sit amet</div>
             <p className="content">
               Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl
               magna est sociis, neque in odio vel, sit lobortis erat. Fugit
               quam, ut pede ut ante, in viverra eros dictum nisl ligula.
             </p>
-            <a href="#"> > Lorem ipsum</a>
+            <a className="action" href="#"> > Lorem Ipsum</a>
           </div>
         </div>
         <div className="col-sm p-0">

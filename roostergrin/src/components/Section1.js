@@ -15,7 +15,7 @@ const Section1 = () => {
             tellus suspendisse. Condimentum non aliquet sed, quisque risus vitae
             semper duis feugiat .
           </p>
-          <a href="#"> > Lorem ipsum</a>
+          <a className="action" href="#"> > Lorem Ipsum</a>
           </div>
         </div>
         <div className="col-sm p-0">

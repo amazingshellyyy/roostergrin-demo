@@ -5,7 +5,7 @@ const Section2 = () => {
     <div className="container-fluid section">
       <div className="row section2-container">
         <div className="col-sm">
-          <div className="sec2-info">
+          <div className="sec-info">
             <div className="header">Lorem Ipsum</div>
             <button className="sec-btn">Button button</button>
           </div>

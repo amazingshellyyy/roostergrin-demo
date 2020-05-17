@@ -8,7 +8,7 @@ const Section4 = () => {
          
         </div>
         <div className="col-sm">
-          <div className="sec4-info">
+          <div className="sec-info">
             <div className="header">Lorem Ipsum</div>
             <p className="content">Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula.</p>
             <button className="sec-btn">Button button</button>
