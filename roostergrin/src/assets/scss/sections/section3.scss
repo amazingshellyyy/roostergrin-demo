@@ -44,27 +44,45 @@
     background-size:70%;
     margin: 5px auto;
     margin-bottom: 1.2rem ;
+   
   }
 
   .icon1{
     background-image: url("../../images/home-expertise.svg");
     background-size:60%;
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotate(10deg);
+    }
   }
   .icon2{
     background-image: url("../../images/home-hygiene.svg");
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotate(10deg);
+    }
   }
   .icon3{
     background-image: url("../../images/home-lab.svg");
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotate(10deg);
+    }
   }
   .icon4{
     background-image: url("../../images/home-retention.svg");
     background-size:50%;
+    transition: transform 0.5s;
+    &:hover {
+      transform: rotate(10deg);
+    }
   }
   .icon-title{
     font-size: 22px;
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
+  
   }
 
 }

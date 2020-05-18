@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfa2eae40d8eb96237dde2a12d8ed985",
+    "revision": "a5618d997573a31c4d511501d67cc5d5",
     "url": "./index.html"
   },
   {
-    "revision": "ade493e00f2c80c09f8e",
+    "revision": "04bb8dcc9ec4db28eb41",
     "url": "./static/css/2.89f067aa.chunk.css"
   },
   {
-    "revision": "5884a321215d30b72e6a",
-    "url": "./static/css/main.cee37ce2.chunk.css"
+    "revision": "19035b6309880869d617",
+    "url": "./static/css/main.0017e70b.chunk.css"
   },
   {
-    "revision": "ade493e00f2c80c09f8e",
-    "url": "./static/js/2.ca529f17.chunk.js"
+    "revision": "04bb8dcc9ec4db28eb41",
+    "url": "./static/js/2.9d12b45b.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "./static/js/2.ca529f17.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.9d12b45b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5884a321215d30b72e6a",
-    "url": "./static/js/main.63be420b.chunk.js"
+    "revision": "19035b6309880869d617",
+    "url": "./static/js/main.f876c5d8.chunk.js"
   },
   {
     "revision": "7f39861c7abe6196f0f9",
     "url": "./static/js/runtime-main.469bed32.js"
+  },
+  {
+    "revision": "247ddefd47b1f766aa906a813a3cbc2c",
+    "url": "./static/media/arrow-left.247ddefd.svg"
+  },
+  {
+    "revision": "6bfd46bcfd776432eb6125e8eef84f19",
+    "url": "./static/media/arrow-right.6bfd46bc.svg"
   },
   {
     "revision": "d679e95e3e1a4102ea2a1ef27bd34899",
@@ -34,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "541a7d9ecf6e06e41906b9424af075ac",
     "url": "./static/media/banner-2.541a7d9e.jpg"
+  },
+  {
+    "revision": "7bc311e4e86ac578b19c3e27c1d2aa01",
+    "url": "./static/media/facebook.7bc311e4.svg"
   },
   {
     "revision": "e2af670d307bfa94a7ee5ce2408dc000",
@@ -58,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cefc803512d923ce6d6d3f6f6cd7feb9",
     "url": "./static/media/img-1.cefc8035.jpg"
+  },
+  {
+    "revision": "417149bccf5f7ef142c1e2aa48778220",
+    "url": "./static/media/instagram.417149bc.svg"
   },
   {
     "revision": "0d146ca16f8a3eebe272a80c2d4f695e",
