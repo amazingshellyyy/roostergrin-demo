@@ -1,0 +1,31 @@
+
+.section {
+  .sec1-info {
+    padding: 15vh 3vw 15vh 15vw;
+    max-height: 526px;
+    .header {
+      font-weight: 700;
+      color: #613476;
+      font-size: 40px;
+      letter-spacing: 1px;
+      padding-bottom: 1.8rem;
+      text-transform: uppercase;
+    }
+    .content {
+      font-size: 1.2rem;
+    }
+    .action {
+      color: #613476;
+      font-size: 1.4rem;
+      font-weight: 700;
+      letter-spacing:1px;
+    }
+  }
+  .sec-image {
+    background-image: url("../../images/img-1.jpg");
+    height: 526px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

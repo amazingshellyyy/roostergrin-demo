@@ -1,0 +1,42 @@
+.carousel-container {
+  .animate {
+    animation: fadein 3s;
+  }
+  align-items: center;
+  margin: 2rem 1rem 2rem 0;
+  padding: 2rem 5rem 2rem 0;
+  .holder {
+    padding:0 2rem 0 1rem;
+    text-align: center;
+    .title {
+      font-size: 18px;
+      letter-spacing: 1px;
+      color: #613476;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      span {
+        margin:.3rem;
+      }
+    }
+    .content {
+      text-align: left;
+      font-size: 16px;
+      font-weight: 600;
+      
+    }
+  }
+  .arrow {
+    margin: auto 0;
+  }
+  .dots {
+    font-size: 0.7em;
+    margin-top: 1.5rem;
+    i {
+      padding: .2rem;
+      color: #FFE465;
+    }
+    .active {
+      color: #FFC718;
+    }
+  }
+}

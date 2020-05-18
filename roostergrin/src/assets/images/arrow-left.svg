@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="21px" viewBox="0 0 10 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow right copy</title>
+    <defs>
+        <polygon id="path-1" points="0 0 21 0 21 10 0 10"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="test" transform="translate(-678.000000, -3274.000000)">
+            <g id="arrow-right-copy" transform="translate(683.000000, 3284.500000) scale(-1, 1) translate(-683.000000, -3284.500000) translate(678.000000, 3274.000000)">
+                <g id="Group-3-Copy-6" transform="translate(5.000000, 10.500000) scale(-1, 1) rotate(-270.000000) translate(-5.000000, -10.500000) translate(-5.500000, 5.500000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M18.9955673,0.255991377 L11.7384257,6.14580996 L11.7384257,6.10279667 L10.4999551,7.12811326 L9.26740545,6.116801 L9.26740545,6.14580996 L2.01026381,0.255991377 C1.50402046,-0.153134947 0.70271518,-0.0380994281 0.272457667,0.451051605 C-0.17753643,0.964210051 -0.0403671766,1.80346919 0.465876182,2.21259551 L9.73022832,9.72591537 C9.9868039,9.93798085 10.1762751,9.98299475 10.5029156,10 C10.7279126,9.96899043 11.0989604,9.87196047 11.274616,9.72591537 L20.5399549,2.21259551 C21.0906056,1.76645776 21.1369866,0.964210051 20.7323866,0.451051605 C20.3287735,-0.060106223 19.5008238,-0.153134947 18.9955673,0.255991377" id="Fill-1" fill="#613476" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

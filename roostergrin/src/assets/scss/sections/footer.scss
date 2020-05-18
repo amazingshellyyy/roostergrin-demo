@@ -1,0 +1,19 @@
+.footer {
+  background-color: #FAFAFA;
+  text-align: center;
+  padding:2rem;
+  .social-title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .social-icons {
+    padding-top: 1rem;
+    svg{
+      padding:5px;
+      height:60px;
+      path {
+        fill: #613476 !important;
+      }
+    }
+  }
+}

@@ -1,4 +1,6 @@
 import React from "react";
+import Carousel from './Carousel';
+
 
 const Section5 = () => {
   return (
@@ -16,7 +18,9 @@ const Section5 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm"></div>
+        <div className="col-sm">
+        <Carousel/>
+        </div>
       </div>
     </div>
   );

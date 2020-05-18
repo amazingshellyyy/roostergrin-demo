@@ -5,7 +5,7 @@ const Section1 = () => {
     <div className="container-fluid section">
       <div className="row">
         <div className="col-sm">
-        <div className="sec-info">
+        <div className="sec1-info">
           <div className="header">Lorem Ipsum</div>
           <p className="content">
             Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl

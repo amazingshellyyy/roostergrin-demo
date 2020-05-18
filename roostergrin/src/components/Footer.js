@@ -4,7 +4,7 @@ import { ReactComponent as Instagram } from "../assets/images/instagram.svg";
 
 const Footer = () => {
   return (
-    <div className="social">
+    <div className="footer">
       <div className="container">
         <div className="social-title">Follow Us:</div>
         <div className="social-icons">
