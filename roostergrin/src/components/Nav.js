@@ -11,7 +11,7 @@ class Nav extends React.Component {
   }
 
   handleScroll = () => {
-      console.log(window.pageYOffset)
+     
     if (window.pageYOffset > 80) {
         this.setState({
            visibility: 'visible',
@@ -31,13 +31,13 @@ class Nav extends React.Component {
     return (
       <div>
         <div className="container nav">
-          <img
+          <img alt="white logo of roostergrin"
             className="nav-logo"
             src={require("./../assets/images/logo-white.svg")}
           ></img>
         </div>
         <div className="nav-fix" style={{visibility:this.state.visibility,opacity:this.state.opacity}}>
-          <img
+          <img alt="color logo of roostergrin"
             className="nav2-logo"
             src={require("./../assets/images/logo-color.svg")}
           ></img>

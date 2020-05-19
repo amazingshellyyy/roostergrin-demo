@@ -39,7 +39,7 @@ class Carousel extends React.Component {
       counter: newCounter,
       currentIndex: newCurrentIndex
     })
-    if (newCurrentIndex == 0) {
+    if (newCurrentIndex === 0) {
       this.setState({
         leftShow:false
       })
@@ -48,7 +48,7 @@ class Carousel extends React.Component {
         leftShow:true
       })
     }
-    if (newCurrentIndex == 2) {
+    if (newCurrentIndex === 2) {
       this.setState({
         rightShow: false
       })
@@ -68,7 +68,7 @@ class Carousel extends React.Component {
       counter: newCounter,
       currentIndex: newCurrentIndex
     })
-    if (newCurrentIndex == 0) {
+    if (newCurrentIndex === 0) {
       this.setState({
         leftShow:false
       })
@@ -77,7 +77,7 @@ class Carousel extends React.Component {
         leftShow:true
       })
     }
-    if (newCurrentIndex == 2) {
+    if (newCurrentIndex === 2) {
       this.setState({
         rightShow: false
       })
@@ -102,9 +102,9 @@ class Carousel extends React.Component {
           <span className="">
             {this.renderCard()}
             <div className="dots">
-            <i className={this.state.currentIndex == 0 ? "fa fa-circle active": "fa fa-circle"}></i>
-            <i className={this.state.currentIndex == 1 ? "fa fa-circle active": "fa fa-circle"}></i>
-            <i className={this.state.currentIndex == 2 ? "fa fa-circle active": "fa fa-circle"}></i>
+            <i className={this.state.currentIndex === 0 ? "fa fa-circle active": "fa fa-circle"}></i>
+            <i className={this.state.currentIndex === 1 ? "fa fa-circle active": "fa fa-circle"}></i>
+            <i className={this.state.currentIndex === 2 ? "fa fa-circle active": "fa fa-circle"}></i>
             </div>
            
           </span>

@@ -5,6 +5,7 @@
 
 * {
   -webkit-font-smoothing: antialiased;
+  
 }
 
 @keyframes fadein {
@@ -41,6 +42,9 @@ body {
     color: map-get(map-get($palette, light),1);
     border-color: map-get(map-get($palette, secondary),2);
   }
+  &:focus {
+    outline:0;
+  }
   @media screen and (max-width: map-get($breakpoints, large)) {
     font-size:$btn-font-size-tab;
     padding: 1rem;
@@ -64,3 +68,5 @@ body {
 @import './sections/footer.scss';
 
 @import './carousel.scss';
+
+
