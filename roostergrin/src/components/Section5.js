@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 
 const Section5 = () => {
   return (
-    <div className="section">
+    <div className="container section">
       <div className="row section5-container">
         <div className="col-sm-12 col-md-12 col-lg-6">
           <div className="sec5-info">
