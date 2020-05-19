@@ -11,7 +11,7 @@ const Section4 = () => {
           <div className="sec-info">
             <div className="header">Lorem Ipsum</div>
             <p className="content">Lorem ipsum dolor sit amet, et felis integer. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula.</p>
-            <button className="sec-btn">Button button</button>
+            <button className="sec-btn" onClick={() => window.open('https://www.roostergrin.com/')}>Button button</button>
           </div>
         </div>
         

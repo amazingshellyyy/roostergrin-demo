@@ -7,7 +7,7 @@ const Section2 = () => {
         <div className="col-sm-12 col-md-12 col-lg-6">
           <div className="sec-info">
             <div className="header">Lorem Ipsum</div>
-            <button className="sec-btn">Button button</button>
+            <button className="sec-btn" onClick={() => window.open('https://www.roostergrin.com/')}>Button button</button>
           </div>
         </div>
         <div className="col-sm-12 col-md-12 col-lg-6"></div>

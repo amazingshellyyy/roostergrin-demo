@@ -8,8 +8,8 @@ const Footer = () => {
       <div className="container">
         <div className="social-title">Follow Us:</div>
         <div className="social-icons">
-          <Instagram />
-          <Facebook />
+          <Instagram onClick={() => window.open('https://www.roostergrin.com/')}/>
+          <Facebook onClick={() => window.open('https://www.roostergrin.com/')}/>
         </div>
       </div>
     </div>
