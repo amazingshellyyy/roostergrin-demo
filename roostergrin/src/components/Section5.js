@@ -6,7 +6,7 @@ const Section5 = () => {
   return (
     <div className="container section">
       <div className="row section5-container">
-        <div className="col-sm-12 col-md-12 col-lg-6">
+        <div className="col-md-12 col-lg-6">
           <div className="sec5-info">
             <div className="header">Lorem ipsum dolor sit amet</div>
             <div className="stars">
@@ -18,7 +18,7 @@ const Section5 = () => {
             </div>
           </div>
         </div>
-        <div className="col-sm-12 col-md-12 col-lg-6">
+        <div className="col-md-12 col-lg-6">
         <Carousel/>
         </div>
       </div>
