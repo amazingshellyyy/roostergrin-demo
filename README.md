@@ -1,7 +1,9 @@
 # roostergrin-demo
 
 This is a demo for Client: RoosterGrin
+:point_right: https://amazingshellyyy.com/roostergrin-demo/
 
+## Requirements
 Design Requirements: 
 - [x] Mockups are followed
 - [x] Carousel in last section
@@ -28,6 +30,8 @@ Bonus Feature:
 - [x] Front end framework
 - [ ] Dynamic backend from a CMS
 
+
+## Submissions
 Short Write up:
 - What you technologies you used and why (if you only used html, css, and js please explain any templates or frameworks you may have used i.e. bootstrap)
   - This project is using HTML/CSS(SCSS), React(Create React App), Bootstrap Grid system. 
