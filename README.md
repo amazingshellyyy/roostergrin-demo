@@ -3,29 +3,29 @@
 This is a demo for Client: RoosterGrin
 
 Design Requirements: 
-- [ ] Mockups are followed
-- [ ] Carousel in last section
-- [ ] Attention to detail
-- [ ] Mobile Responsive
-- [ ] Animations
+- [x] Mockups are followed
+- [x] Carousel in last section
+- [x] Attention to detail
+- [x] Mobile Responsive
+- [x] Animations
 
 Technical requirements:
-- [ ] Modular and concise code
-- [ ] Fully functional capabilities of built features
-- [ ] We should not be seeing errors when we click on buttons
-- [ ] Understanding best practices of web development
-- [ ] Naming conventions and styling
-- [ ] Best use of images and assets
-- [ ] Use of a grid system
+- [x] Modular and concise code
+- [x] Fully functional capabilities of built features
+- [x] We should not be seeing errors when we click on buttons
+- [x] Understanding best practices of web development
+- [x] Naming conventions and styling
+- [x] Best use of images and assets
+- [x] Use of a grid system
 
 Required Feature: 
-- [ ] Fade In Effect for the hero title
-- [ ] Subtle animation on the four icons
-- [ ] Fully Functional Site
+- [x] Fade In Effect for the hero title
+- [x] Subtle animation on the four icons
+- [x] Fully Functional Site
 
 Bonus Feature:
-- [ ] Use of dev server
-- [ ] Front end framework
+- [x] Use of dev server
+- [x] Front end framework
 - [ ] Dynamic backend from a CMS
 
 Short Write up:
