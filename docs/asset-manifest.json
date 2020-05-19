@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "./static/css/main.0bf6356f.chunk.css",
-    "main.js": "./static/js/main.badb5cb6.chunk.js",
-    "main.js.map": "./static/js/main.badb5cb6.chunk.js.map",
+    "main.css": "./static/css/main.db417bef.chunk.css",
+    "main.js": "./static/js/main.1a9283a2.chunk.js",
+    "main.js.map": "./static/js/main.1a9283a2.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.469bed32.js",
     "runtime-main.js.map": "./static/js/runtime-main.469bed32.js.map",
     "static/css/2.89f067aa.chunk.css": "./static/css/2.89f067aa.chunk.css",
-    "static/js/2.9d12b45b.chunk.js": "./static/js/2.9d12b45b.chunk.js",
-    "static/js/2.9d12b45b.chunk.js.map": "./static/js/2.9d12b45b.chunk.js.map",
+    "static/js/2.b17d528d.chunk.js": "./static/js/2.b17d528d.chunk.js",
+    "static/js/2.b17d528d.chunk.js.map": "./static/js/2.b17d528d.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.d1b54cb7753d0fd83430387fed1f4ee1.js": "./precache-manifest.d1b54cb7753d0fd83430387fed1f4ee1.js",
+    "precache-manifest.d0a1050e29230dfc85c62d669d458f3c.js": "./precache-manifest.d0a1050e29230dfc85c62d669d458f3c.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.89f067aa.chunk.css.map": "./static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.0bf6356f.chunk.css.map": "./static/css/main.0bf6356f.chunk.css.map",
-    "static/js/2.9d12b45b.chunk.js.LICENSE.txt": "./static/js/2.9d12b45b.chunk.js.LICENSE.txt",
+    "static/css/main.db417bef.chunk.css.map": "./static/css/main.db417bef.chunk.css.map",
+    "static/js/2.b17d528d.chunk.js.LICENSE.txt": "./static/js/2.b17d528d.chunk.js.LICENSE.txt",
     "static/media/arrow-left.247ddefd.svg": "./static/media/arrow-left.247ddefd.svg",
     "static/media/arrow-right.6bfd46bc.svg": "./static/media/arrow-right.6bfd46bc.svg",
     "static/media/style.scss": "./static/media/img-1.cefc8035.jpg",
     "static/media/facebook.7bc311e4.svg": "./static/media/facebook.7bc311e4.svg",
     "static/media/instagram.417149bc.svg": "./static/media/instagram.417149bc.svg",
+    "static/media/logo-color.svg": "./static/media/logo-color.5fa49540.svg",
     "static/media/logo-white.svg": "./static/media/logo-white.0d146ca1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.469bed32.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.9d12b45b.chunk.js",
-    "static/css/main.0bf6356f.chunk.css",
-    "static/js/main.badb5cb6.chunk.js"
+    "static/js/2.b17d528d.chunk.js",
+    "static/css/main.db417bef.chunk.css",
+    "static/js/main.1a9283a2.chunk.js"
   ]
 }
