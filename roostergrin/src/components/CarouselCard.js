@@ -8,8 +8,8 @@ const CarouselCard = (props) => {
    
     <div className="animate">
       <div className="title">
-        <span>{props.currentCard.name}</span>
-        <span>{props.currentCard.date}</span>
+        <span className="name">{props.currentCard.name}</span>
+        <span className="date">{props.currentCard.date}</span>
       </div>
       <div className="content">{props.currentCard.review}</div>
     </div>

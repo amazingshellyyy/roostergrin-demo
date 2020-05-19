@@ -44,8 +44,12 @@
       color: #613476;
       font-weight: 700;
       margin-bottom: 2rem;
-      span {
+      .name ,.date  {
         margin:.3rem;
+        @media screen and (max-width: map-get($breakpoints, medium)) {
+          display: block;
+          
+        }
       }
     }
     .content {

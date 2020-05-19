@@ -99,7 +99,7 @@ class Carousel extends React.Component {
           <span id="left" onClick={this.prev} className="arrow">
             <ArrowLeft/>
           </span>
-          <span className="">
+          <span >
             {this.renderCard()}
             <div className="dots">
             <i className={this.state.currentIndex === 0 ? "fa fa-circle active": "fa fa-circle"}></i>
