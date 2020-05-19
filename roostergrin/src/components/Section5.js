@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 
 const Section5 = () => {
   return (
-    <div className="container section">
+    <div className="container-fluid section">
       <div className="row section5-container">
         <div className="col-md-12 col-lg-6">
           <div className="sec5-info">
