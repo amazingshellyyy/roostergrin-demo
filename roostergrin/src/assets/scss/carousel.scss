@@ -1,13 +1,40 @@
 .carousel-container {
   .animate {
     animation: fadein 3s;
+    
   }
   align-items: center;
-  margin: 2rem 1rem 2rem 0;
-  padding: 2rem 5rem 2rem 0;
+  margin: 2rem 5rem 2rem 0;
+  padding: 2rem 5rem 4rem 0;
+  @media screen and (max-width: 1000px) {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    margin: 2rem auto;
+    padding: 2rem;
+  }
   .holder {
     padding:0 2rem 0 1rem;
     text-align: center;
+    display: flexbox;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    @media screen and (max-width: 1000px) {
+      padding:0 2rem;
+    }
+    
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      padding:0 1rem;
+    }
+    #left {
+      padding-right: 2rem;
+    }
+    #right {
+      padding-left: 2rem;
+    }
     .title {
       font-size: 18px;
       letter-spacing: 1px;
@@ -20,13 +47,21 @@
     }
     .content {
       text-align: left;
-      font-size: 16px;
+      font-size: $content-font-size-web;
       font-weight: 600;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $content-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $content-font-size-phone;
+        
+      }
       
     }
   }
   .arrow {
     margin: auto 0;
+   
   }
   .dots {
     font-size: 0.7em;

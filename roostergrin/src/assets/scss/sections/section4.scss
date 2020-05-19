@@ -4,21 +4,53 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 600px;
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    background-image: linear-gradient(to right,rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url("../../images/banner-2.jpg");
+  }
   .sec-info {
     margin: 7rem 6rem 7rem 3rem;
     padding: 7rem 6rem 7rem 4rem;
+    @media screen and (max-width: 1200px) {
+      margin: 4rem 4rem 5rem 1rem;
+      padding: 6rem 3rem 1rem 1rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      margin: 3rem 4rem 3rem 1rem;
+      padding: 6rem 3rem 3rem 1rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      margin: 3rem 1rem 3rem 1rem;
+      padding: 3rem 1rem 3rem 1rem;
+      
+    }
     .header {
-      font-weight: 700;
-      font-size: 48px;
+      font-weight: $bold;
+      font-size: $title-font-size-web;
       line-height: 48px;
-      letter-spacing: 1px;
+      letter-spacing: $letter-spacing;
       padding-bottom: 1rem;
       text-transform: uppercase;
-      color: #613476;
+      color: map-get(map-get($palette,primary),3);
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $title-font-size-tab;
+        padding-bottom: 1.5rem;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $title-font-size-phone;
+        padding-bottom: 1.3rem;
+      }
     }
     .content {
-      font-size: 1.2rem;
+      font-size: $content-font-size-web;
       padding-bottom: 1rem;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $content-font-size-tab;
+        padding-bottom: 0.8rem;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $content-font-size-phone;
+        padding-bottom: 0.5rem;
+      }
     }
     
   }

@@ -5,17 +5,40 @@
   background-size: cover;
   max-height: 600px;
   padding:3rem 5rem ;
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    background-image: linear-gradient(to right,rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url("../../images/banner-1.jpg");
+  }
   .sec-info {
     margin: 7rem 1rem 7rem 3rem;
     padding: 7rem 1rem 7rem 4rem;
-    
+    @media screen and (max-width: 1200px) {
+      margin: 4rem 1rem 5rem 4rem;
+      padding: 6rem 1rem 1rem 3rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      margin: 3rem 1rem 3rem 4rem;
+      padding: 6rem 1rem 3rem 3rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      margin: 3rem 1rem 3rem 1rem;
+      padding: 3rem 1rem 3rem 1rem;
+    }
     .header {
-      font-weight: 700;
-      color: #613476;
-      font-size: 40px;
-      letter-spacing: 1px;
+      font-weight: $bold;
+      color: map-get(map-get($palette,primary),3);
+      font-size: $header-font-size-web;
+      letter-spacing: $letter-spacing;
       padding-bottom: 1.8rem;
+      line-height: 48px;
       text-transform: uppercase;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $header-font-size-tab;
+        padding-bottom: 1.5rem;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $header-font-size-phone;
+        padding-bottom: 1.3rem;
+      }
     }
     
     

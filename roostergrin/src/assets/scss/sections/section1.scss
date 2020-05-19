@@ -1,24 +1,59 @@
 
 .section {
   .sec1-info {
-    padding: 15vh 3vw 15vh 15vw;
+    margin: 3rem 2rem 3rem 6rem;
+    padding: 3.5rem 2rem 3rem 6rem;
     max-height: 526px;
+    @media screen and (max-width: 1200px) {
+      margin: auto 1rem auto 4rem;
+      padding: 6rem 1rem 1rem 3rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      margin: 2rem 1.5rem auto 1.5rem;
+      padding: 3rem 1rem 1rem 3rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      margin: auto 1.5rem auto 1.5rem;
+      padding: 3rem 1rem 3rem 3rem;
+    }
     .header {
-      font-weight: 700;
-      color: #613476;
-      font-size: 40px;
-      letter-spacing: 1px;
+      font-weight: $bold;
+      color: map-get(map-get($palette,primary),3);
+      font-size: $header-font-size-web;
+      letter-spacing: $letter-spacing;
       padding-bottom: 1.8rem;
       text-transform: uppercase;
+      @media screen and (max-width: 1200px) {
+        padding-bottom: 1rem;
+        font-size: $header-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $header-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $header-font-size-phone;
+      }
     }
     .content {
-      font-size: 1.2rem;
+      font-size:$content-font-size-web;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size:$content-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $content-font-size-phone;
+      }
     }
     .action {
-      color: #613476;
-      font-size: 1.4rem;
-      font-weight: 700;
-      letter-spacing:1px;
+      color: map-get(map-get($palette,primary),3);
+      font-size: $tag-font-size-web;
+      font-weight: $bold;
+      letter-spacing:$letter-spacing;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $tag-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $tag-font-size-phone;
+      }
     }
   }
   .sec-image {

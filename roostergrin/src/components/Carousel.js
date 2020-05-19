@@ -96,10 +96,10 @@ class Carousel extends React.Component {
     return (
       <div className="container carousel-container">
         <div className="row holder">
-          <div id="left" onClick={this.prev} className="col-sm-1 col-lg-1 arrow">
+          <span id="left" onClick={this.prev} className="arrow">
             <ArrowLeft/>
-          </div>
-          <div className="col-sm-10 col-lg-10 ">
+          </span>
+          <span className="">
             {this.renderCard()}
             <div className="dots">
             <i className={this.state.currentIndex == 0 ? "fa fa-circle active": "fa fa-circle"}></i>
@@ -107,10 +107,10 @@ class Carousel extends React.Component {
             <i className={this.state.currentIndex == 2 ? "fa fa-circle active": "fa fa-circle"}></i>
             </div>
            
-          </div>
-          <div id="right" onClick={this.next} className="col-sm-1 col-lg-1 arrow">
+          </span>
+          <span id="right" onClick={this.next} className="arrow">
           <ArrowRight/>
-          </div>
+          </span>
         </div>
       </div>
     );

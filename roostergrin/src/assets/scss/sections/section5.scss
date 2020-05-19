@@ -1,19 +1,40 @@
 .section5-container {
   .sec5-info {
-    // padding: 15vh 3vw 20vh 15vw;
-    padding: 20% 5% 20% 35%;
+    margin: 3rem 2rem 3rem 7.5rem;
+    padding: 3.5rem 2rem 3rem 7.5rem;
+    max-height: 526px;
+    @media screen and (max-width: 1200px) {
+      margin: auto 1rem auto 4rem;
+      padding: 6rem 1rem 1rem 3rem;
+    }
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      margin: 2rem auto;
+      padding: 3rem 1rem 1rem 3rem;
+      text-align: center;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      margin: auto 1.5rem auto 1.5rem;
+      padding: 3rem 1rem 1rem 3rem;
+      text-align: center;
+    }
     .header {
-      font-weight: 700;
-      color: #000;
-      font-size: 40px;
+      font-weight: $bold;
+      color: map-get(map-get($palette, dark),1);
+      font-size: $header-font-size-web;
       line-height: 48px;
-      letter-spacing: 1px;
+      letter-spacing: $letter-spacing;
       padding-bottom: 1rem;
       text-transform: uppercase;
+      @media screen and (max-width: map-get($breakpoints, large)) {
+        font-size: $header-font-size-tab;
+      }
+      @media screen and (max-width: map-get($breakpoints, medium)) {
+        font-size: $header-font-size-phone;
+      }
     }
     .stars {
       .checked {
-        color: #FF7218;
+        color: map-get(map-get($palette, secondary),1);
         
         padding: 5px;
       }

@@ -4,7 +4,7 @@ const Section1 = () => {
   return (
     <div className="container-fluid section">
       <div className="row">
-        <div className="col-sm">
+        <div className="col-sm-6 col-md-7 col-lg-6">
         <div className="sec1-info">
           <div className="header">Lorem Ipsum</div>
           <p className="content">
@@ -18,7 +18,7 @@ const Section1 = () => {
           <a className="action" href="#"> > Lorem Ipsum</a>
           </div>
         </div>
-        <div className="col-sm p-0">
+        <div className="col-sm-6 col-md-5 col-lg-6 p-0">
           <div className="sec-image"></div>
         </div>
       </div>

@@ -7,43 +7,70 @@
   background-size: cover;
   background-blend-mode: lighten;
   text-align: center;
+  
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    height: 500px;
+  }
   .hero-title-1 {
     padding-top: 250px;
     @supports (-webkit-text-stroke: 1px white) {
       -webkit-text-stroke: 2px white;
       -webkit-text-fill-color: transparent;
     }
-    font-size: 72px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 800;
+    font-size: $hero1-font-size-web;
+    font-weight:$extra-bold;
     animation: fadein 3s;
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      font-size: $hero1-font-size-tab;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      font-size: $hero1-font-size-phone;
+      padding-top: 150px;
+    }
   }
 
   .hero-title-2 {
-    color: white;
-    font-weight: 700;
-    font-size: 64px;
-    letter-spacing: 5px;
+    color:map-get(map-get($palette,light),1);
+    font-weight:$bold;
+    font-size: $hero2-font-size-web;
+    letter-spacing: $letter-spacing*5;
     -webkit-font-smoothing: antialiased;
     line-height: 55px;
     animation: fadein 3s;
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      font-size: $hero2-font-size-tab;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      font-size: $hero2-font-size-phone;
+      line-height: 40px;
+    }
   }
 
  
   .hero-button {
     color: #fff;
-    border-color: #ac5fd0;
-    background-color: #ac5fd0;
+    border-color: map-get(map-get($palette,primary),1);
+    background-color: map-get(map-get($palette,primary),1);
     padding: 1.2rem;
-    letter-spacing: 1px;
-    font-size: 15px;
+    letter-spacing: $letter-spacing;
+    font-size:$btn-font-size-web;
     margin-top: 35px;
-    font-weight: 700;
+    font-weight: $bold;
     text-transform: uppercase;
     &:hover {
-      background-color: #BA67E0;
+      background-color: map-get(map-get($palette,primary),2);
       color: #fff;
-      border-color: #BA67E0;
+      border-color: map-get(map-get($palette,primary),2);
+    }
+    @media screen and (max-width: map-get($breakpoints, large)) {
+      margin-top: 20px;
+      padding: 1rem;
+      font-size:$btn-font-size-tab;
+    }
+    @media screen and (max-width: map-get($breakpoints, medium)) {
+      margin-top: 25px;
+      padding: 0.8rem;
+      font-size:$btn-font-size-phone;
     }
   }
 }

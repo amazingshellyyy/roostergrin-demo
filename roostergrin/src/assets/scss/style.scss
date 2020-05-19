@@ -1,5 +1,7 @@
 @import "widths-and-spacing";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@import './typography';
+@import './color.scss';
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -15,7 +17,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:$font-stack;
   box-sizing: border-box;
 }
 //Nav
@@ -26,17 +28,25 @@ body {
 
 .sec-btn {
   color: #fff;
-  border-color: #FF7218;
-  background-color: #FF7218;
+  border-color: map-get(map-get($palette, secondary),1);
+  background-color: map-get(map-get($palette, secondary),1);
   padding: 1.5rem;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size:$btn-font-size-web;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: $semi-bold;
   &:hover {
-    background-color: #FF7C2B;
-    color: #fff;
-    border-color: #FF7C2B;
+    background-color: map-get(map-get($palette, secondary),2);
+    color: map-get(map-get($palette, light),1);
+    border-color: map-get(map-get($palette, secondary),2);
+  }
+  @media screen and (max-width: map-get($breakpoints, large)) {
+    font-size:$btn-font-size-tab;
+    padding: 1rem;
+  }
+  @media screen and (max-width: map-get($breakpoints, medium)) {
+    font-size:$btn-font-size-phone;
+    padding: 0.8rem;
   }
 }
 
