@@ -42,3 +42,20 @@ Short Write up:
 - What you enjoyed the most and why
   - I enjoy setting up variables in SCSS and using them. I also start doing this in my own project which is really helpful when project grow big.
   - I enjoy building my own carousel. Although the transition is not as I wanted it because of the time limit but I would continue building it and make it better.
+
+
+## Developement
+Please fork or clone the project and create PR if needed.
+
+To get started:
+```
+$ git clone git@github.com:amazingshellyyy/roostergrin-demo.git
+$ cd roostergrin
+$ npm i
+```
+
+Run the project on Local:
+```
+$ npm run start
+```
+
